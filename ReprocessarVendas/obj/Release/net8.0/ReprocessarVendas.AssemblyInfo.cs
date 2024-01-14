@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReprocessarVendas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a74813ab11e9211fe7254551d4f607b363b89067")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a48a5fb02d36fffdcb75c4bbad67d23fd4d0d64")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReprocessarVendas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReprocessarVendas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

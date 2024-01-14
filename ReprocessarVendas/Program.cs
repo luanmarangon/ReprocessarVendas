@@ -64,7 +64,7 @@ class Program
                 diaFinal = dataFinal.Day;
                 mesFinal = dataFinal.Month;
             }
-
+            int i = 0;
             for (int mes = mesInicial; mes <= mesFinal; mes++)
             {
                 int diaLimite = (mes == mesFinal) ? diaFinal : 31;
@@ -78,6 +78,7 @@ class Program
 
                     Console.WriteLine(sourcePath);
 
+
                     if (Directory.Exists(sourcePath))
                     {
                         string[] files = Directory.GetFiles(sourcePath);
@@ -85,6 +86,7 @@ class Program
                         {
                             string destinationPath = Path.Combine(mapeamento, Path.GetFileName(file));
                             File.Copy(file, destinationPath, true);
+                            i++;
                         }
                     }
                     else
@@ -94,7 +96,7 @@ class Program
                 }
             }
 
-            Console.WriteLine($"Processo concluído. Verifique em '{mapeamento}' as vendas sendo Reprocessadas.");
+            Console.WriteLine($"Processo concluído. Verifique em '{mapeamento}' as vendas sendo Reprocessadas. Foram Reprocessados {i} Arquivos de vendas!");
             Console.ReadLine();
         }
     }
