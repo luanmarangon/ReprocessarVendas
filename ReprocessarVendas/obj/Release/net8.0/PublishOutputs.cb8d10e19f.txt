@@ -1,0 +1,5 @@
+C:\Users\LuanMarangon\Desktop\Projects C#\ReprocessarVendas\ReprocessarVendas\bin\Release\net8.0\publish\ReprocessarVendas.exe
+C:\Users\LuanMarangon\Desktop\Projects C#\ReprocessarVendas\ReprocessarVendas\bin\Release\net8.0\publish\ReprocessarVendas.dll
+C:\Users\LuanMarangon\Desktop\Projects C#\ReprocessarVendas\ReprocessarVendas\bin\Release\net8.0\publish\ReprocessarVendas.deps.json
+C:\Users\LuanMarangon\Desktop\Projects C#\ReprocessarVendas\ReprocessarVendas\bin\Release\net8.0\publish\ReprocessarVendas.runtimeconfig.json
+C:\Users\LuanMarangon\Desktop\Projects C#\ReprocessarVendas\ReprocessarVendas\bin\Release\net8.0\publish\ReprocessarVendas.pdb
