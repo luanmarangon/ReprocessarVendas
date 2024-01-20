@@ -8,23 +8,23 @@ Este aplicativo foi desenvolvido em C# com Windows Forms e tem como objetivo fac
 
 As vendas são organizadas da seguinte maneira:
 
-├── Vendas
-│   ├── 01
-│   │   ├── 01
-│   │   │   ├── Venda01.txt
-│   │   │   ├── Venda02.txt
-│   │   │   └── Venda03.txt
-│   │   ├── 02
-│   │   │   ├── Venda01.txt
-│   │   │   └── Venda02.txt
-├── 02
-│   ├── 01
-│   │   ├── Venda01.txt
-│   │   ├── Venda02.txt
-│   │   └── Venda03.txt
-│   ├── 02
-│   │   ├── Venda01.txt
-│   │   └── Venda04.txt
+## Vendas
+### 01\
+###  └──  01\01
+#### └── Venda01.txt
+#### └── Venda02.txt
+#### └── Venda03.txt
+###  └──  01\02
+#### └──  Venda01.txt
+#### └──  Venda02.txt
+## 02\
+###  └──  02\01
+#### └──  Venda01.txt
+#### └──  Venda02.txt
+#### └──  Venda03.txt
+###  └──  02\02
+#### └──  Venda01.txt
+#### └──  Venda04.txt
 
 
 Cada pasta do mês (01 a 12) contém subpastas para cada dia (01 a 31), e dentro de cada subpasta do dia, há arquivos contendo as vendas daquele dia.
